@@ -1,5 +1,5 @@
 /**
- * inchToCm
+ * inchToCm Program
  */
 
  import java.util.Scanner;
