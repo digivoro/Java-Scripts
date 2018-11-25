@@ -33,5 +33,6 @@ public class ScannerBug {
         name = in.nextLine();
 
         System.out.printf("Hello %s, age %d\n", name, age);
+        in.close();
     }
 }

@@ -19,5 +19,7 @@ public class Convert {
         feet = inches / IN_PER_FOOT;
         remainder = inches % IN_PER_FOOT;
         System.out.printf("%.2f cm = %d ft, %d in\n", cm, feet, remainder);
+
+        in.close();
     }
 }
