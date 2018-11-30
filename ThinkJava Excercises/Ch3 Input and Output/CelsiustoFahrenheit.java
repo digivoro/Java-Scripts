@@ -20,7 +20,7 @@ public class CelsiustoFahrenheit {
         Scanner in = new Scanner(System.in);
         
         System.out.println("*** Celsius to Fahrenheit conversor ***");
-        System.out.print("Enter temperature in Celsius: ");
+        System.out.println("Enter temperature in Celsius: ");
         tempC = in.nextDouble();
         tempF = tempC*C_TO_F_FACTOR+C_TO_F_ADD;
         System.out.printf("The temperature in Fahrenheit is %.3f", tempF);
